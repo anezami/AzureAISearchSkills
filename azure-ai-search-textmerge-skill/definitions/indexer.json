@@ -1,0 +1,28 @@
+{
+    "name": "addresstest-indexer",
+    "description": null,
+    "dataSourceName": "address-datasource-json-managed-identity",
+    "skillsetName": "mergeskilltest",
+    "targetIndexName": "addressindex",
+    "disabled": null,
+    "schedule": null,
+    "parameters": {
+      "batchSize": null,
+      "maxFailedItems": null,
+      "maxFailedItemsPerBatch": null,
+      "base64EncodeKeys": null,
+      "configuration": {
+        "parsingMode": "jsonArray",
+        "allowSkillsetToReadFileData": false
+      }
+    },
+    "fieldMappings": [],
+    "outputFieldMappings": [
+        {
+          "sourceFieldName": "/document/fullAddress",
+          "targetFieldName": "fullAddress"
+        }
+    ],
+    "cache": null,
+    "encryptionKey": null
+  }

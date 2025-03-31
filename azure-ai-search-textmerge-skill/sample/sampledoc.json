@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "streetName": "Main Street",
+        "houseNumber": "123B",
+        "city": "New York"
+    },
+    {
+        "id": "2",
+        "streetName": "Park Avenue",
+        "houseNumber": "456 33B",
+        "city": "San Francisco"
+    }
+]

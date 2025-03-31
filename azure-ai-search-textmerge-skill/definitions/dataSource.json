@@ -1,0 +1,17 @@
+{
+    "name": "address-datasource-json-managed-identity",
+    "description": "Data source for address documents from Blob Storage using Managed Identity",
+    "type": "azureblob",
+    "subtype": null,
+    "credentials": {
+      "connectionString": "ResourceId=/subscriptions/6c6c7ade-1d43-4a86-8aca-fa189cf11c3c/resourceGroups/aifoundrytests/providers/Microsoft.Storage/storageAccounts/staifoundrytest;"
+    },
+    "container": {
+      "name": "mergetestaddress",
+      "query": null
+    },
+    "dataChangeDetectionPolicy": null,
+    "dataDeletionDetectionPolicy": null,
+    "encryptionKey": null,
+    "identity": null
+  }

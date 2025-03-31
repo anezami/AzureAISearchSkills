@@ -1,0 +1,31 @@
+{
+  "name": "addressMergeSkill",
+  "description": "Merges streetName, houseNumber and city into fullAddress field",
+  "context": "/document",
+  "uri": "https://searchskilladdressmergetest.azurewebsites.net/api/merge-address?code=<your-function-key>",
+  "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+  "httpMethod": "POST",
+  "timeout": "PT30S",
+  "degreeOfParallelism": 1,
+  "batchSize": 1,
+  "inputs": [
+    {
+      "name": "streetName",
+      "source": "/document/streetName"
+    },
+    {
+      "name": "houseNumber",
+      "source": "/document/houseNumber" 
+    },
+    {
+      "name": "city",
+      "source": "/document/city"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "fullAddress",
+      "targetName": "fullAddress"
+    }
+  ]
+}
