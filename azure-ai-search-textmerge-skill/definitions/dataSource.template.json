@@ -7,7 +7,7 @@
       "connectionString": "ResourceId=/subscriptions/<your-subscription-id>/resourceGroups/<your-resource-group>/providers/Microsoft.Storage/storageAccounts/<your-storage-account>;"
     },
     "container": {
-      "name": "mergetestaddress",
+      "name": "<your-container-name>",
       "query": null
     },
     "dataChangeDetectionPolicy": null,
